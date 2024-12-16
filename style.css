@@ -1,0 +1,176 @@
+/* Reset básico */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+    background: linear-gradient(to bottom, #4CAF50, #2E8B57);
+
+    color: #fff;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+}
+
+
+
+/* Container principal */
+
+.container {
+
+    background-color: rgba(0, 0, 0, 0.6);
+
+    padding: 2rem;
+
+    border-radius: 12px;
+
+    width: 90%;
+
+    max-width: 600px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+
+}
+
+
+
+/* Cabeçalho */
+
+header h1 {
+
+    font-size: 2.5rem;
+
+    margin-bottom: 1rem;
+
+    font-weight: 700;
+
+}
+
+
+
+header p {
+
+    font-size: 1.1rem;
+
+    margin-bottom: 2rem;
+
+    color: #ddd;
+
+}
+
+
+
+/* Botão */
+
+button {
+
+    background-color: #FFD700;
+
+    color: #333;
+
+    border: none;
+
+    padding: 0.8rem 2rem;
+
+    font-size: 1.2rem;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    border-radius: 8px;
+
+    transition: all 0.3s ease;
+
+}
+
+
+
+button:hover {
+
+    background-color: #FFC107;
+
+    transform: scale(1.1);
+
+}
+
+
+
+/* Rodapé */
+
+footer {
+
+    margin-top: 2rem;
+
+    font-size: 0.9rem;
+
+    color: #ccc;
+
+}
+
+
+
+/* Estilos para respostas do quiz */
+
+#answers .btn {
+
+    display: block;
+
+    background-color: #FFD700;
+
+    color: #333;
+
+    margin: 0.5rem 0;
+
+    padding: 0.5rem 1rem;
+
+    border-radius: 8px;
+
+    font-size: 1rem;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+
+}
+
+
+
+#answers .btn:hover {
+
+    background-color: #FFC107;
+
+}
+
+
+
+#next-btn {
+
+    margin-top: 1rem;
+
+}
+
+
+
+
+
