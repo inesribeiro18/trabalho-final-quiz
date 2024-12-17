@@ -26,8 +26,8 @@ Funcionalidades
 
 Tecnologias Utilizadas
 
-• HTML5: Estrutura do projeto.
+• HTML: Estrutura do projeto.
 
-• CSS3: Estilização e design visual.
+• CSS: Estilização e design visual.
 
 • JavaScript: Funcionalidade interativa e lógica do quiz.
