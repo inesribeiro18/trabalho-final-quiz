@@ -1,175 +1,85 @@
-/* Reset básico */
-
-* {
-
-    margin: 0;
-
-    padding: 0;
-
-    box-sizing: border-box;
-
-}
-
-
-
 body {
-
-    font-family: 'Montserrat', sans-serif;
-
-    background: linear-gradient(to bottom, #4CAF50, #2E8B57);
-
-    color: #fff;
-
-    min-height: 100vh;
-
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/fundo.jpg');
+    background-size: cover;
+    background-position: center;
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
-    text-align: center;
-
+    height: 100vh;
 }
-
-
-
-/* Container principal */
 
 .container {
-
-    background-color: rgba(0, 0, 0, 0.6);
-
-    padding: 2rem;
-
-    border-radius: 12px;
-
-    width: 90%;
-
-    max-width: 600px;
-
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
-
-
-/* Cabeçalho */
-
-header h1 {
-
-    font-size: 2.5rem;
-
-    margin-bottom: 1rem;
-
-    font-weight: 700;
-
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
-
-
-header p {
-
-    font-size: 1.1rem;
-
-    margin-bottom: 2rem;
-
-    color: #ddd;
-
+p {
+    margin: 10px 0 20px;
+    font-size: 1rem;
 }
-
-
-
-/* Botão */
 
 button {
-
-    background-color: #FFD700;
-
-    color: #333;
-
+    background-color: #ffc107;
+    color: #000;
     border: none;
-
-    padding: 0.8rem 2rem;
-
-    font-size: 1.2rem;
-
-    font-weight: 700;
-
+    padding: 15px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
     cursor: pointer;
-
-    border-radius: 8px;
-
-    transition: all 0.3s ease;
-
+    transition: background-color 0.3s ease;
 }
-
-
 
 button:hover {
-
-    background-color: #FFC107;
-
-    transform: scale(1.1);
-
+    background-color: #ffb300;
 }
 
-
-
-/* Rodapé */
-
-footer {
-
-    margin-top: 2rem;
-
-    font-size: 0.9rem;
-
-    color: #ccc;
-
+.hidden {
+    display: none;
 }
 
-
-
-/* Estilos para respostas do quiz */
-
-#answers .btn {
-
-    display: block;
-
-    background-color: #FFD700;
-
-    color: #333;
-
-    margin: 0.5rem 0;
-
-    padding: 0.5rem 1rem;
-
-    border-radius: 8px;
-
-    font-size: 1rem;
-
-    cursor: pointer;
-
-    transition: background-color 0.3s ease;
-
+.correct {
+    background-color: #4caf50;
 }
 
-
-
-#answers .btn:hover {
-
-    background-color: #FFC107;
-
+.incorrect {
+    background-color: #f44336;
 }
 
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
 
+.btn-container button {
+    width: 100%;
+    text-align: center;
+}
+
+.question {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
 
 #next-btn {
-
-    margin-top: 1rem;
-
+    margin-top: 20px;
 }
-
 
 
 
