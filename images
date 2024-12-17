@@ -1,6 +1,4 @@
 <script>start("/Users/user/Documents/GitHub/trabalho-final-quiz/images/");</script>
 <script>onHasParentDirectory();</script>
 <script>addRow("fundo.jpg","fundo.jpg",0,735442,"718 kB",1734371378,"16/12/24, 17:49:38");</script>
-<script>addRow("Personagem 1.png","Personagem%201.png",0,162900,"159 kB",1734372340,"16/12/24, 18:05:40");</script>
-<script>addRow("Personagem 2.png","Personagem%202.png",0,165571,"162 kB",1734372332,"16/12/24, 18:05:32");</script>
-<script>addRow("Personagem 3.png","Personagem%203.png",0,165306,"161 kB",1734372368,"16/12/24, 18:06:08");</script>
+
